@@ -24,7 +24,7 @@
 				<version>2.0</version>
 				<configuration>
                     <deploymentType>cloudhub</deploymentType>
-                    <muleVersion>3.8.3</muleVersion>
+                    <muleVersion>${mule.version}</muleVersion>
                     <username>fatih</username>
                     <password>ZeusX545!</password>
                     <workerType>Micro</workerType>
@@ -45,7 +45,7 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-app-maven-plugin</artifactId>
-				<version>1.0</version>
+				<version>${mule.tools.version}</version>
 				<extensions>true</extensions>
 				<configuration>
                     <copyToAppsDirectory>true</copyToAppsDirectory>
